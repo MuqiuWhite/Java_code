@@ -17,9 +17,20 @@ public class TEST{
 //	}
 	public static void main(String[] args){
 
-		byte a=1;
-		byte b=3;
-		System.out.println(b+" "+c);
+		/*byte a=1;
+		byte b=3;*/
+//		String a="hello";
+		long a = 10L;
+		int b =(int)a;
+		int num = 10;
+		String str1 = num + "";
+
+		String str2 = String.valueof(num);
+
+		String str = "100";
+		int num = Integer.parseInt(str);
+
+		System.out.println(num);
 	}
 
 
