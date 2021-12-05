@@ -1,0 +1,168 @@
+CREATE DATABASE scoredb
+ON PRIMARY
+(
+	NAME=scoredb,
+	filename='D:\sql\scoredb.mdf',
+	size=10,
+	maxsize=20,
+	filegrowth=1
+
+)
+filegroup  temphisdev
+(
+	NAME=scoredb1,
+	filename='D:\sql\scoredb.ldf',
+	size=2,
+	maxsize=5,
+	filegrowth=1
+),
+
+ALTER DATABASE 
+MODIFY FILE (size=10mb)
+CREATE TABLE n
+(
+
+CONSTRAINT pk PRIMARY KEY (w),
+CONSTRAINT fk FOREIGN KEY (s)REFERENCES S(s)
+)
+ON tmp
+
+ALTER TABLE mdb
+ADD ss INT 
+
+
+ALTER TABLE mdb
+ALTER COLUMN xname CHAR(1)
+
+
+ALTER TABLE mdb
+ADD CONSTRAINT uk UNIQUE(dd)
+
+ALTER TABLE mdb
+MODIFY COLUMN cc INT NOT NULL
+
+ALTER TABLE mdb
+MODIFY COLUMN cd INT DEFAULT 0
+
+ALTER TABLE mdb
+MODIFY COLUMN cc INT NOT NULL
+
+ALTER TABLE mdb
+MODIFY COLUMN cc INT DEFAULT 0
+
+ALTER TABLE mdb
+ADD PRIMARY KEY(cc)
+
+ALTER TABLE mdb
+DROP PRIMARY KEY
+
+ALTER TABLE mdb
+ADD FOREIGN KEY cc REFERENCES S(cc)
+ALTER TABLE mdb
+ADD CONSTRAINT u UNIQUE (cc)
+
+ALTER TABLE mdb
+DROP INDEX u
+
+ALTER TABLE mdb
+ADD CONSTRAINT sd FOREIGN KEY cc REFERENCES S(cc)
+
+DROP TABLE mdb
+
+CREATE nonclustered INDEX IN ON Class(inclu)
+CREATE nonclustered INDEX ii ON inded(oo)
+CREATE INDEX jj ON indef(cno,birthday DESC)
+DROP INDEX indfd ON CLass
+DROP INDEX indfg ON Class
+
+INSERT INTO ss 
+SELECT *
+FROM score
+WHERE sno IN (SELECT sno FROM sdb WHERE nation!='汉族')
+
+INSERT INTO s
+SELECT *
+FROM score
+WHERE sno IN()SELECT sno FROM sth WHERE nation='汉族')
+
+DELETE FROM sc
+WHERE sno='122'
+
+DELETE FROM sc
+WHERE couseno IN
+
+SELECT couseno
+FROM score
+WHERE NAME='df'
+ 
+DELETE
+FROM cno
+WHERE sno IN (
+SELECT sno
+FROM sno
+GROUP BY sno
+HAVING  s BETWEEN 60 AND 70
+)
+
+
+UPDATE score
+SET score=99
+WHERE cno=11 AND term=151 AND sno IN
+SELECT sno
+FROM student
+WHERE NAME='whm'
+
+UPDATE score
+SET score=88
+WHERE term='121' AND cno='002' AND
+sno IN
+SELECT sno
+FROM student
+WHERE NAME='whm'
+
+UPDATE score
+SET score=5
+FROM score s,student t,class c
+WHERE s.sno=t.sno AND t.sno=c.sno AND sex='男'AND cno='dfd'
+
+UPDATE stu
+SET bir='199-3-22 00:00',native='sd'
+WHERE sno
+
+UPDATE class
+SET classnum=counts
+FROM class a
+(
+SELECT COUNT(*) counts,cno
+FROM class
+GROUP BY cno
+
+)b
+WHERE a.con=b.cno
+
+UPDATE class SET classn=scount
+FROM class a,
+(SELECT cont(*)scount,cno
+FROM class
+GROUP BY cno)b
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
