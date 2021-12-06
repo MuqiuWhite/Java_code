@@ -1,6 +1,6 @@
 public class test1 {
 
-    public static void main(String[] args) {
+    public static void main1(String[] args) {
 
         int []a={1,2};
         try {
